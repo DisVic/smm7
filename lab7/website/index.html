@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra Danza - Запись</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #fff;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background: #f0f0f0;
+        }
+        .form {
+            background: #f9f9f9;
+            padding: 15px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+        .form input, .form select, .form textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+        }
+        .form button {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .form button:hover {
+            background: #555;
+        }
+        .note {
+            background: #fffbe6;
+            padding: 10px;
+            border-left: 3px solid #ffc107;
+            margin: 15px 0;
+        }
+    </style>
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108240878', 'ym');
+        ym(108240878, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/108240878" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <h1>Terra Danza</h1>
+    
+    <div class="note">Первое пробное занятие бесплатно!</div>
+    
+    <h2>Расписание и цены</h2>
+    <table>
+        <tr>
+            <th>Направление</th>
+            <th>Возраст</th>
+            <th>Дни</th>
+            <th>Цена</th>
+        </tr>
+        <tr>
+            <td>Бальные танцы (начинающие)</td>
+            <td>4-7 лет</td>
+            <td>Пн, Ср, Пт</td>
+            <td>4000 руб/мес</td>
+        </tr>
+        <tr>
+            <td>Бальные танцы (продолжающие)</td>
+            <td>7-12 лет</td>
+            <td>Вт, Чт, Сб</td>
+            <td>5000 руб/мес</td>
+        </tr>
+        <tr>
+            <td>Хореография</td>
+            <td>5-10 лет</td>
+            <td>Сб, Вс</td>
+            <td>3500 руб/мес</td>
+        </tr>
+        <tr>
+            <td>Взрослая группа</td>
+            <td>18+</td>
+            <td>Пн, Чт</td>
+            <td>4500 руб/мес</td>
+        </tr>
+        <tr>
+            <td>Индивидуально</td>
+            <td>Любой</td>
+            <td>По записи</td>
+            <td>2000 руб/час</td>
+        </tr>
+    </table>
+    
+    <div class="form">
+        <h2>Записаться на пробное занятие</h2>
+        <form onsubmit="ym(108240878, 'reachGoal', 'signup');">
+            <input type="text" placeholder="Имя" required>
+            <input type="tel" placeholder="Телефон" required>
+            <select>
+                <option>Выберите направление</option>
+                <option>Бальные танцы (дети)</option>
+                <option>Хореография</option>
+                <option>Взрослая группа</option>
+                <option>Индивидуально</option>
+            </select>
+            <textarea placeholder="Комментарий" rows="2"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
