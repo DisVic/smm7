@@ -7,7 +7,7 @@ import os
 TG_CHANNEL = 'terra_danza'
 
 # Яндекс.Метрика
-YANDEX_TOKEN = 'y0__xCB2N-8BhiEuj8g0Y-h7xb8ph-77dNTlolmOlJ9Pjlae_ayLg'
+YANDEX_TOKEN = 'токен_Яндекс.Метрики'
 YANDEX_COUNTER_ID = '108240878'
 
 # База данных
@@ -21,7 +21,6 @@ CACHE_DIR = 'cache'
 UTM_SOURCES = {
     'telegram': 'Telegram-канал',
     'vk': 'VK-сообщество',
-    'instagram': 'Instagram',
     'direct': 'Прямой переход'
 }
 
